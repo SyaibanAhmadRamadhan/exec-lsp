@@ -1,0 +1,20 @@
+{
+  "name": "monaco-lsp-fe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@codingame/monaco-jsonrpc": "^0.4.1",
+    "monaco-editor": "^0.52.2",
+    "monaco-languageclient": "^9.5.0",
+    "vscode-ws-jsonrpc": "^3.4.0"
+  }
+}
